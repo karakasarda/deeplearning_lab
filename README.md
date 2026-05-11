@@ -5,6 +5,7 @@ Bu depo, YZM304 Derin Ogrenme dersi boyunca yapilan proje odevlerini tek yerde t
 ## Projects
 - `project1/`: BankNote Authentication veri seti uzerinde scratch MLP ve PyTorch karsilastirmasi
 - `project2/`: CIFAR-10 uzerinde custom CNN, ResNet18 ve hibrit CNN+SVM karsilastirmasi
+- `project4/`: Turkce toksik dil tespiti icin TF-IDF baseline, transformer karsilastirmasi, kalibrasyon, threshold politikalari, detayli rapor ve PowerPoint sunum
 
 ## Usage
 Her proje kendi klasoru icinde bagimsiz calisacak sekilde duzenlenmistir. Ilgili proje klasorune girip kendi `README.md` dosyasindaki talimatlari izleyebilirsiniz.

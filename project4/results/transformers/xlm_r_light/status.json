@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "run_name": "xlm_r_light",
+  "model_name": "FacebookAI/xlm-roberta-base",
+  "test_macro_f1": 0.8495735354867439,
+  "runtime_seconds": 1924.9726722240448,
+  "completed_at": "2026-05-10 16:05:15"
+}

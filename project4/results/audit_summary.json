@@ -1,0 +1,45 @@
+{
+  "raw_rows": 77800,
+  "raw_columns": [
+    "text",
+    "target",
+    "source",
+    "is_toxic"
+  ],
+  "missing_by_column": {
+    "text": 0,
+    "target": 0,
+    "source": 0,
+    "is_toxic": 0
+  },
+  "dropped_empty_or_unknown_label": 0,
+  "duplicate_text_rows": 0,
+  "conflicting_text_count": 0,
+  "deduplicated_rows_removed": 0,
+  "clean_rows": 77800,
+  "class_distribution": {
+    "OTHER": 37663,
+    "PROFANITY": 18252,
+    "INSULT": 10777,
+    "RACIST": 10163,
+    "SEXIST": 945
+  },
+  "source_distribution": {
+    "bully": 2525,
+    "jigsaw": 35624,
+    "offenseval": 6,
+    "told": 39551,
+    "troff": 94
+  },
+  "binary_distribution": {
+    "0": 37663,
+    "1": 40137
+  },
+  "text_length": {
+    "min": 2,
+    "median": 103.0,
+    "mean": 200.11281491002572,
+    "p95": 643.0,
+    "max": 9314
+  }
+}

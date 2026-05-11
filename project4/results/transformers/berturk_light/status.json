@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "run_name": "berturk_light",
+  "model_name": "dbmdz/bert-base-turkish-cased",
+  "test_macro_f1": 0.8996861291186316,
+  "runtime_seconds": 829.4051065444946,
+  "completed_at": "2026-05-10 14:44:39"
+}

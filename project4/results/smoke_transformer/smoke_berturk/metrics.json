@@ -1,0 +1,130 @@
+{
+  "run_name": "smoke_berturk",
+  "family": "transformer",
+  "model_key": "berturk",
+  "model_name": "dbmdz/bert-base-turkish-cased",
+  "display_name": "BERTurk",
+  "preprocess": "light",
+  "label_order": [
+    "OTHER",
+    "PROFANITY",
+    "INSULT",
+    "RACIST",
+    "SEXIST"
+  ],
+  "seed": 42,
+  "sample_size": 2000,
+  "epochs": 0.1,
+  "batch_size": 8,
+  "gradient_accumulation": 2,
+  "effective_batch_size": 16,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "max_length": 128,
+  "class_weight": true,
+  "class_weights": [
+    0.09970250725746155,
+    0.20609238743782043,
+    0.3484448492527008,
+    0.3693896234035492,
+    3.9763705730438232
+  ],
+  "temperature": 5.0,
+  "val_nll_after_temperature": 1.6355928774171404,
+  "val_metrics": {
+    "accuracy": 0.03333333333333333,
+    "balanced_accuracy": 0.23076923076923075,
+    "macro_f1": 0.047719298245614036,
+    "weighted_f1": 0.02774269005847953,
+    "macro_precision": 0.06951364175563464,
+    "macro_recall": 0.23076923076923075,
+    "log_loss": 1.6355928774171404,
+    "top_label_ece": 0.19304758111635845,
+    "classwise_ece": 0.1343629280924797,
+    "macro_pr_auc": 0.2164978729847932
+  },
+  "test_metrics": {
+    "accuracy": 0.02666666666666667,
+    "balanced_accuracy": 0.22051282051282053,
+    "macro_f1": 0.03194379391100703,
+    "weighted_f1": 0.017430132708821232,
+    "macro_precision": 0.039262187088274045,
+    "macro_recall": 0.22051282051282053,
+    "log_loss": 1.6351682879462068,
+    "top_label_ece": 0.1981805904706319,
+    "classwise_ece": 0.13335350417097408,
+    "macro_pr_auc": 0.22350927659114322
+  },
+  "val_uncalibrated_metrics": {
+    "accuracy": 0.03333333333333333,
+    "balanced_accuracy": 0.23076923076923075,
+    "macro_f1": 0.047719298245614036,
+    "weighted_f1": 0.02774269005847953,
+    "macro_precision": 0.06951364175563464,
+    "macro_recall": 0.23076923076923075,
+    "log_loss": 1.8071055857921579,
+    "top_label_ece": 0.3191523802280426,
+    "classwise_ece": 0.16249235479036966,
+    "macro_pr_auc": 0.21944661055080994
+  },
+  "test_uncalibrated_metrics": {
+    "accuracy": 0.02666666666666667,
+    "balanced_accuracy": 0.22051282051282053,
+    "macro_f1": 0.03194379391100703,
+    "weighted_f1": 0.017430132708821232,
+    "macro_precision": 0.039262187088274045,
+    "macro_recall": 0.22051282051282053,
+    "log_loss": 1.7988780593669205,
+    "top_label_ece": 0.31621607532103857,
+    "classwise_ece": 0.15945694414277872,
+    "macro_pr_auc": 0.22028000578752174
+  },
+  "dataset_audit": {
+    "raw_rows": 77800,
+    "raw_columns": [
+      "text",
+      "target",
+      "source",
+      "is_toxic"
+    ],
+    "missing_by_column": {
+      "text": 0,
+      "target": 0,
+      "source": 0,
+      "is_toxic": 0
+    },
+    "dropped_empty_or_unknown_label": 0,
+    "duplicate_text_rows": 0,
+    "conflicting_text_count": 0,
+    "deduplicated_rows_removed": 0,
+    "clean_rows": 77800,
+    "class_distribution": {
+      "OTHER": 37663,
+      "PROFANITY": 18252,
+      "INSULT": 10777,
+      "RACIST": 10163,
+      "SEXIST": 945
+    },
+    "source_distribution": {
+      "bully": 2525,
+      "jigsaw": 35624,
+      "offenseval": 6,
+      "told": 39551,
+      "troff": 94
+    },
+    "binary_distribution": {
+      "0": 37663,
+      "1": 40137
+    },
+    "text_length": {
+      "min": 2,
+      "median": 103.0,
+      "mean": 200.11281491002572,
+      "p95": 643.0,
+      "max": 9314
+    },
+    "sample_size_used": 2000
+  },
+  "runtime_seconds": 13.61843729019165
+}

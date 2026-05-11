@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "run_name": "electra_light",
+  "model_name": "dbmdz/electra-base-turkish-cased-discriminator",
+  "test_macro_f1": 0.8800150420098468,
+  "runtime_seconds": 986.4568243026733,
+  "completed_at": "2026-05-10 15:01:26"
+}

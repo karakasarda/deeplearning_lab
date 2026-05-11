@@ -1,0 +1,1198 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/re1w7mp0",
+    "id": "re1w7mp0",
+    "slide": 12,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "1",
+      "name": "slide-title",
+      "bbox": [
+        86,
+        62,
+        1748,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Sonuç: raporlanması gereken şey skor değil, güvenilir karar davranışı",
+      "textPreview": "Sonuç: raporlanması gereken şey skor değil, güvenilir karar davranışı",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sonuç: raporlanması gereken şey skor değil, güvenilir karar davranışı"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sonuç: raporlanması gereken şey skor değil, güvenilir karar davranışı",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sonuç: raporlanması gereken şey skor değil, güvenilir karar davranışı",
+              "fontSize": 42,
+              "color": "#17212B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "2",
+      "name": "slide-subtitle",
+      "bbox": [
+        86,
+        122,
+        956,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Final paket model karşılaştırmasını, sınıf bazlı hata analizini, kalibrasyonu ve threshold politikasını birlikte veriyor.",
+      "textPreview": "Final paket model karşılaştırmasını, sınıf bazlı hata analizini, kalibrasyonu ve threshold politikasını birlikte veriyor.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final paket model karşılaştırmasını, sınıf bazlı hata analizini, kalibrasyonu ve threshold politikasını birlikte veriyor."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final paket model karşılaştırmasını, sınıf bazlı hata analizini, kalibrasyonu ve threshold politikasını birlikte veriyor.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final paket model karşılaştırmasını, sınıf bazlı hata analizini, kalibrasyonu ve threshold politikasını birlikte veriyor.",
+              "fontSize": 21,
+              "color": "#5B6673"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "3",
+      "name": "title-rule",
+      "bbox": [
+        86,
+        188,
+        220,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0E7C7B",
+      "lineColor": "#0E7C7B",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "4",
+      "bbox": [
+        86,
+        218,
+        780,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Güçlü bulgular",
+      "textPreview": "Güçlü bulgular",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Güçlü bulgular"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Güçlü bulgular",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Güçlü bulgular",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "5",
+      "name": "bullet-0",
+      "bbox": [
+        86,
+        254,
+        780,
+        28
+      ],
+      "geometry": "rect",
+      "text": "• BERTurk light test macro-F1 0.8997 ile en iyi genel dengeyi verdi.",
+      "textPreview": "• BERTurk light test macro-F1 0.8997 ile en iyi genel dengeyi verdi.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• BERTurk light test macro-F1 0.8997 ile en iyi genel dengeyi verdi."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• BERTurk light test macro-F1 0.8997 ile en iyi genel dengeyi verdi.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• BERTurk light test macro-F1 0.8997 ile en iyi genel dengeyi verdi.",
+              "fontSize": 22,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "6",
+      "name": "bullet-1",
+      "bbox": [
+        86,
+        292,
+        780,
+        54
+      ],
+      "geometry": "rect",
+      "text": "• TF-IDF baseline güçlü kaldı ama transformer en iyi baseline’dan +0.1028 macro-F1 ileride.",
+      "textPreview": "• TF-IDF baseline güçlü kaldı ama transformer en iyi baseline’dan +0.1028 macro-F1 ileride.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• TF-IDF baseline güçlü kaldı ama transformer en iyi baseline’dan +0.1028 macro-F1"
+          },
+          {
+            "index": 2,
+            "text": "ileride."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• TF-IDF baseline güçlü kaldı ama transformer en iyi baseline’dan +0.1028 macro-F1 ileride.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• TF-IDF baseline güçlü kaldı ama transformer en iyi baseline’dan +0.1028 macro-F1 ileride.",
+              "fontSize": 22,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "7",
+      "name": "bullet-2",
+      "bbox": [
+        86,
+        356,
+        780,
+        28
+      ],
+      "geometry": "rect",
+      "text": "• `SEXIST` sınıfı düşük destek yüzünden hala en kırılgan sınıf.",
+      "textPreview": "• `SEXIST` sınıfı düşük destek yüzünden hala en kırılgan sınıf.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• `SEXIST` sınıfı düşük destek yüzünden hala en kırılgan sınıf."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• `SEXIST` sınıfı düşük destek yüzünden hala en kırılgan sınıf.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• `SEXIST` sınıfı düşük destek yüzünden hala en kırılgan sınıf.",
+              "fontSize": 22,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "8",
+      "name": "bullet-3",
+      "bbox": [
+        86,
+        394,
+        780,
+        54
+      ],
+      "geometry": "rect",
+      "text": "• Kalibrasyon ve threshold sweep sonuçları moderasyon kararının modele ek olarak politika gerektirdiğini gösterdi.",
+      "textPreview": "• Kalibrasyon ve threshold sweep sonuçları moderasyon kararının modele ek olarak politika gerektirdiğini gösterdi.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Kalibrasyon ve threshold sweep sonuçları moderasyon kararının modele ek olarak"
+          },
+          {
+            "index": 2,
+            "text": "politika gerektirdiğini gösterdi."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Kalibrasyon ve threshold sweep sonuçları moderasyon kararının modele ek olarak politika gerektirdiğini gösterdi.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Kalibrasyon ve threshold sweep sonuçları moderasyon kararının modele ek olarak politika gerektirdiğini gösterdi.",
+              "fontSize": 22,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "9",
+      "bbox": [
+        926,
+        218,
+        908,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Teslim paketi",
+      "textPreview": "Teslim paketi",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Teslim paketi"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Teslim paketi",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Teslim paketi",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "10",
+      "bbox": [
+        926,
+        254,
+        180,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Parça",
+      "textPreview": "Parça",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Parça"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Parça",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Parça",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "11",
+      "bbox": [
+        1120,
+        254,
+        560,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Dosya",
+      "textPreview": "Dosya",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dosya"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dosya",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dosya",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "12",
+      "bbox": [
+        926,
+        280,
+        908,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5DDD8",
+      "lineColor": "#D5DDD8",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "13",
+      "bbox": [
+        926,
+        290,
+        180,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Kod",
+      "textPreview": "Kod",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kod"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kod",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kod",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "14",
+      "bbox": [
+        1120,
+        290,
+        560,
+        22
+      ],
+      "geometry": "rect",
+      "text": "train_transformer.py, run_full_suite.py",
+      "textPreview": "train_transformer.py, run_full_suite.py",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "train_transformer.py, run_full_suite.py"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "train_transformer.py, run_full_suite.py",
+          "runs": [
+            {
+              "index": 1,
+              "text": "train_transformer.py, run_full_suite.py",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "15",
+      "bbox": [
+        926,
+        320,
+        180,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Final sonuç",
+      "textPreview": "Final sonuç",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final sonuç"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final sonuç",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final sonuç",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "16",
+      "bbox": [
+        1120,
+        320,
+        560,
+        22
+      ],
+      "geometry": "rect",
+      "text": "results/final_model_comparison.csv",
+      "textPreview": "results/final_model_comparison.csv",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "results/final_model_comparison.csv"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "results/final_model_comparison.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "results/final_model_comparison.csv",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "17",
+      "bbox": [
+        926,
+        350,
+        180,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Detaylı rapor",
+      "textPreview": "Detaylı rapor",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Detaylı rapor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Detaylı rapor",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Detaylı rapor",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "18",
+      "bbox": [
+        1120,
+        350,
+        560,
+        22
+      ],
+      "geometry": "rect",
+      "text": "results/detailed_report.md",
+      "textPreview": "results/detailed_report.md",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "results/detailed_report.md"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "results/detailed_report.md",
+          "runs": [
+            {
+              "index": 1,
+              "text": "results/detailed_report.md",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "19",
+      "bbox": [
+        926,
+        380,
+        180,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Sunum",
+      "textPreview": "Sunum",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sunum"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sunum",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sunum",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "20",
+      "bbox": [
+        1120,
+        380,
+        560,
+        22
+      ],
+      "geometry": "rect",
+      "text": "output/Project4_Turkish_Toxic_Language_Detection.pptx",
+      "textPreview": "output/Project4_Turkish_Toxic_Language_Detection.pptx",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "output/Project4_Turkish_Toxic_Language_Detection.pptx"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "output/Project4_Turkish_Toxic_Language_Detection.pptx",
+          "runs": [
+            {
+              "index": 1,
+              "text": "output/Project4_Turkish_Toxic_Language_Detection.pptx",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "21",
+      "bbox": [
+        926,
+        408,
+        180,
+        22
+      ],
+      "geometry": "rect",
+      "text": "QA render",
+      "textPreview": "QA render",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QA render"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QA render",
+          "runs": [
+            {
+              "index": 1,
+              "text": "QA render",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "22",
+      "bbox": [
+        1120,
+        408,
+        560,
+        22
+      ],
+      "geometry": "rect",
+      "text": "presentation/previews/final_pptx/*.png",
+      "textPreview": "presentation/previews/final_pptx/*.png",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "presentation/previews/final_pptx/*.png"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "presentation/previews/final_pptx/*.png",
+          "runs": [
+            {
+              "index": 1,
+              "text": "presentation/previews/final_pptx/*.png",
+              "fontSize": 18,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "23",
+      "bbox": [
+        926,
+        448,
+        908,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Sınırlılıklar",
+      "textPreview": "Sınırlılıklar",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sınırlılıklar"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sınırlılıklar",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sınırlılıklar",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "24",
+      "name": "bullet-0",
+      "bbox": [
+        926,
+        484,
+        908,
+        24
+      ],
+      "geometry": "rect",
+      "text": "• HPO yalnız BERTurk üzerinde sınırlı aramayla yapıldı.",
+      "textPreview": "• HPO yalnız BERTurk üzerinde sınırlı aramayla yapıldı.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• HPO yalnız BERTurk üzerinde sınırlı aramayla yapıldı."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• HPO yalnız BERTurk üzerinde sınırlı aramayla yapıldı.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• HPO yalnız BERTurk üzerinde sınırlı aramayla yapıldı.",
+              "fontSize": 20,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "25",
+      "name": "bullet-1",
+      "bbox": [
+        926,
+        520,
+        908,
+        24
+      ],
+      "geometry": "rect",
+      "text": "• Kısa epoch tercihi laptop GPU runtime sınırından kaynaklandı.",
+      "textPreview": "• Kısa epoch tercihi laptop GPU runtime sınırından kaynaklandı.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Kısa epoch tercihi laptop GPU runtime sınırından kaynaklandı."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Kısa epoch tercihi laptop GPU runtime sınırından kaynaklandı.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Kısa epoch tercihi laptop GPU runtime sınırından kaynaklandı.",
+              "fontSize": 20,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "26",
+      "name": "bullet-2",
+      "bbox": [
+        926,
+        554,
+        908,
+        24
+      ],
+      "geometry": "rect",
+      "text": "• Veri pseudo-label ve kaynak birleşimi içerdiği için altın standart olarak yorumlanmamalı.",
+      "textPreview": "• Veri pseudo-label ve kaynak birleşimi içerdiği için altın standart olarak yorumlanmamalı.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Veri pseudo-label ve kaynak birleşimi içerdiği için altın standart olarak yorumlanmamalı."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Veri pseudo-label ve kaynak birleşimi içerdiği için altın standart olarak yorumlanmamalı.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Veri pseudo-label ve kaynak birleşimi içerdiği için altın standart olarak yorumlanmamalı.",
+              "fontSize": 20,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,11 @@
+{
+  "trial": 2,
+  "run_name": "hpo_berturk_trial_02",
+  "learning_rate": 3e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "class_weight": true,
+  "selection_rule": "max val_macro_f1; within 0.003 prefer lower classwise_ece, then runtime",
+  "val_macro_f1": 0.7267337522343423,
+  "val_classwise_ece": 0.02791064968984574
+}

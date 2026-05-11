@@ -1,0 +1,1284 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/0z61032l",
+    "id": "0z61032l",
+    "slide": 8,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "1",
+      "name": "slide-title",
+      "bbox": [
+        66,
+        48,
+        1788,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Confusion matrix hatanın nerede toplandığını gösteriyor",
+      "textPreview": "Confusion matrix hatanın nerede toplandığını gösteriyor",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Confusion matrix hatanın nerede toplandığını gösteriyor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Confusion matrix hatanın nerede toplandığını gösteriyor",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Confusion matrix hatanın nerede toplandığını gösteriyor",
+              "fontSize": 42,
+              "color": "#17212B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "2",
+      "name": "slide-subtitle",
+      "bbox": [
+        66,
+        108,
+        644,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Raw sayımlar hata büyüklüğünü, normalized görünüm sınıf içi oranı gösterir.",
+      "textPreview": "Raw sayımlar hata büyüklüğünü, normalized görünüm sınıf içi oranı gösterir.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw sayımlar hata büyüklüğünü, normalized görünüm sınıf içi oranı gösterir."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw sayımlar hata büyüklüğünü, normalized görünüm sınıf içi oranı gösterir.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw sayımlar hata büyüklüğünü, normalized görünüm sınıf içi oranı gösterir.",
+              "fontSize": 21,
+              "color": "#5B6673"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "3",
+      "name": "title-rule",
+      "bbox": [
+        66,
+        174,
+        220,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0E7C7B",
+      "lineColor": "#0E7C7B",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/9knih4by",
+      "id": "30",
+      "name": "best-confusion",
+      "bbox": [
+        66,
+        385.03,
+        550,
+        458.33
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image4.png",
+        "contentType": "image/png",
+        "byteLength": 48913
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image4.png",
+        "contentType": "image/png",
+        "byteLength": 48913
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kzupwb2h",
+      "id": "31",
+      "name": "best-confusion-normalized",
+      "bbox": [
+        636,
+        385.03,
+        550,
+        458.33
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image5.png",
+        "contentType": "image/png",
+        "byteLength": 66470
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.png",
+        "contentType": "image/png",
+        "byteLength": 66470
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "6",
+      "bbox": [
+        1214,
+        196,
+        640,
+        18
+      ],
+      "geometry": "rect",
+      "text": "En büyük karışmalar",
+      "textPreview": "En büyük karışmalar",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "En büyük karışmalar"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "En büyük karışmalar",
+          "runs": [
+            {
+              "index": 1,
+              "text": "En büyük karışmalar",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "7",
+      "bbox": [
+        1214,
+        232,
+        210,
+        18
+      ],
+      "geometry": "rect",
+      "text": "True -> Pred",
+      "textPreview": "True -> Pred",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "True -> Pred"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "True -> Pred",
+          "runs": [
+            {
+              "index": 1,
+              "text": "True -> Pred",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je9cvixc",
+      "id": "8",
+      "bbox": [
+        1438,
+        232,
+        80,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Adet",
+      "textPreview": "Adet",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Adet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Adet",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Adet",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "9",
+      "bbox": [
+        1532,
+        232,
+        80,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Oran",
+      "textPreview": "Oran",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Oran"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Oran",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Oran",
+              "fontSize": 15,
+              "color": "#5B6673",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "10",
+      "bbox": [
+        1214,
+        258,
+        640,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5DDD8",
+      "lineColor": "#D5DDD8",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "11",
+      "bbox": [
+        1214,
+        268,
+        210,
+        22
+      ],
+      "geometry": "rect",
+      "text": "OTHER -> INSULT",
+      "textPreview": "OTHER -> INSULT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OTHER -> INSULT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OTHER -> INSULT",
+          "runs": [
+            {
+              "index": 1,
+              "text": "OTHER -> INSULT",
+              "fontSize": 17,
+              "color": "#0E7C7B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "12",
+      "bbox": [
+        1438,
+        268,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "108",
+      "textPreview": "108",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "108"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "108",
+          "runs": [
+            {
+              "index": 1,
+              "text": "108",
+              "fontSize": 17,
+              "color": "#0E7C7B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "13",
+      "bbox": [
+        1532,
+        268,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "0.02",
+      "textPreview": "0.02",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.02",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.02",
+              "fontSize": 17,
+              "color": "#0E7C7B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "14",
+      "bbox": [
+        1214,
+        296,
+        210,
+        22
+      ],
+      "geometry": "rect",
+      "text": "INSULT -> OTHER",
+      "textPreview": "INSULT -> OTHER",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INSULT -> OTHER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INSULT -> OTHER",
+          "runs": [
+            {
+              "index": 1,
+              "text": "INSULT -> OTHER",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "15",
+      "bbox": [
+        1438,
+        296,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "92",
+      "textPreview": "92",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "92"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "92",
+          "runs": [
+            {
+              "index": 1,
+              "text": "92",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "16",
+      "bbox": [
+        1532,
+        296,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "0.06",
+      "textPreview": "0.06",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.06",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.06",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "17",
+      "bbox": [
+        1214,
+        326,
+        210,
+        22
+      ],
+      "geometry": "rect",
+      "text": "INSULT -> PROFANITY",
+      "textPreview": "INSULT -> PROFANITY",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INSULT -> PROFANITY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INSULT -> PROFANITY",
+          "runs": [
+            {
+              "index": 1,
+              "text": "INSULT -> PROFANITY",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "18",
+      "bbox": [
+        1438,
+        326,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "77",
+      "textPreview": "77",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "77"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "77",
+          "runs": [
+            {
+              "index": 1,
+              "text": "77",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "19",
+      "bbox": [
+        1532,
+        326,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "0.05",
+      "textPreview": "0.05",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.05",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.05",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "20",
+      "bbox": [
+        1214,
+        354,
+        210,
+        22
+      ],
+      "geometry": "rect",
+      "text": "PROFANITY -> INSULT",
+      "textPreview": "PROFANITY -> INSULT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROFANITY -> INSULT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROFANITY -> INSULT",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROFANITY -> INSULT",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "21",
+      "bbox": [
+        1438,
+        354,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "59",
+      "textPreview": "59",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "59"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "59",
+          "runs": [
+            {
+              "index": 1,
+              "text": "59",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "22",
+      "bbox": [
+        1532,
+        354,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "0.02",
+      "textPreview": "0.02",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.02",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.02",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "23",
+      "bbox": [
+        1214,
+        382,
+        210,
+        22
+      ],
+      "geometry": "rect",
+      "text": "PROFANITY -> RACIST",
+      "textPreview": "PROFANITY -> RACIST",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROFANITY -> RACIST"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROFANITY -> RACIST",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROFANITY -> RACIST",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "24",
+      "bbox": [
+        1438,
+        382,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "56",
+      "textPreview": "56",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "56"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "56",
+          "runs": [
+            {
+              "index": 1,
+              "text": "56",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "25",
+      "bbox": [
+        1532,
+        382,
+        80,
+        22
+      ],
+      "geometry": "rect",
+      "text": "0.02",
+      "textPreview": "0.02",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.02",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.02",
+              "fontSize": 17,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "26",
+      "bbox": [
+        1214,
+        420,
+        640,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Yorum",
+      "textPreview": "Yorum",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Yorum"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Yorum",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Yorum",
+              "fontSize": 15,
+              "color": "#0E7C7B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "27",
+      "name": "bullet-0",
+      "bbox": [
+        1214,
+        448,
+        640,
+        24
+      ],
+      "geometry": "rect",
+      "text": "• `INSULT` örneklerinin bir bölümü `OTHER` veya `PROFANITY` ile karışıyor.",
+      "textPreview": "• `INSULT` örneklerinin bir bölümü `OTHER` veya `PROFANITY` ile karışıyor.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• `INSULT` örneklerinin bir bölümü `OTHER` veya `PROFANITY` ile karışıyor."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• `INSULT` örneklerinin bir bölümü `OTHER` veya `PROFANITY` ile karışıyor.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• `INSULT` örneklerinin bir bölümü `OTHER` veya `PROFANITY` ile karışıyor.",
+              "fontSize": 19,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "28",
+      "name": "bullet-1",
+      "bbox": [
+        1214,
+        482,
+        640,
+        24
+      ],
+      "geometry": "rect",
+      "text": "• `SEXIST` recall yüksek olsa da düşük destek yüzünden precision kırılgan.",
+      "textPreview": "• `SEXIST` recall yüksek olsa da düşük destek yüzünden precision kırılgan.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• `SEXIST` recall yüksek olsa da düşük destek yüzünden precision kırılgan."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• `SEXIST` recall yüksek olsa da düşük destek yüzünden precision kırılgan.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• `SEXIST` recall yüksek olsa da düşük destek yüzünden precision kırılgan.",
+              "fontSize": 19,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "29",
+      "name": "bullet-2",
+      "bbox": [
+        1214,
+        516,
+        640,
+        24
+      ],
+      "geometry": "rect",
+      "text": "• `RACIST` diagonal oranı güçlü; hata daha çok komşu toksik sınıflara dağılıyor.",
+      "textPreview": "• `RACIST` diagonal oranı güçlü; hata daha çok komşu toksik sınıflara dağılıyor.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• `RACIST` diagonal oranı güçlü; hata daha çok komşu toksik sınıflara dağılıyor."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• `RACIST` diagonal oranı güçlü; hata daha çok komşu toksik sınıflara dağılıyor.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• `RACIST` diagonal oranı güçlü; hata daha çok komşu toksik sınıflara dağılıyor.",
+              "fontSize": 19,
+              "color": "#17212B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

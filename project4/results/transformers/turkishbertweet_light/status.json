@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "run_name": "turkishbertweet_light",
+  "model_name": "VRLLab/TurkishBERTweet",
+  "test_macro_f1": 0.8642775894895672,
+  "runtime_seconds": 1153.949979543686,
+  "completed_at": "2026-05-10 16:24:52"
+}

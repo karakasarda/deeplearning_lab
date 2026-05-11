@@ -1,0 +1,11 @@
+{
+  "total_runtime_seconds": 221.89219403266907,
+  "model": "sgd",
+  "preprocess_variants": [
+    "raw",
+    "light",
+    "light_masked"
+  ],
+  "sample_size": null,
+  "best_variant": "light"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "run_name": "smoke_berturk",
+  "model_name": "dbmdz/bert-base-turkish-cased",
+  "test_macro_f1": 0.03194379391100703,
+  "runtime_seconds": 13.619390964508057,
+  "completed_at": "2026-05-10 14:20:01"
+}

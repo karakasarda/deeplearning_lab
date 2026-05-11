@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "run_name": "hpo_berturk_trial_03",
+  "model_name": "dbmdz/bert-base-turkish-cased",
+  "test_macro_f1": 0.5590875210678662,
+  "runtime_seconds": 79.47813963890076,
+  "completed_at": "2026-05-10 14:25:31"
+}

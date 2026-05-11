@@ -1,0 +1,401 @@
+{
+  "title": "Birleştirilmiş Türkçe Toksisite Verisinde Model Güvenilirliği",
+  "subtitle": "Macro-F1, kalibrasyon ve eşik seçimi accuracy'den daha açıklayıcı.",
+  "claim": "En iyi skor tek başına yeterli değil; dengesiz sınıflarda güvenilir karar için macro-F1, confusion matrix, ECE ve threshold politikası birlikte okunmalı.",
+  "bestRun": "berturk_light",
+  "bestModel": "BERTurk",
+  "bestMacroF1": 0.8997,
+  "bestAccuracy": 0.9423,
+  "bestPrAuc": 0.9456,
+  "bestEce": 0.0089,
+  "bestClasswiseEce": 0.0078,
+  "baselineRun": "baseline_sgd_light",
+  "baselineMacroF1": 0.7969,
+  "macroLift": 0.1028,
+  "datasetRows": "77.800",
+  "textMedian": 103.0,
+  "textP95": 643.0,
+  "classRows": [
+    {
+      "label": "OTHER",
+      "count": 37663,
+      "share": "48.4%"
+    },
+    {
+      "label": "PROFANITY",
+      "count": 18252,
+      "share": "23.5%"
+    },
+    {
+      "label": "INSULT",
+      "count": 10777,
+      "share": "13.9%"
+    },
+    {
+      "label": "RACIST",
+      "count": 10163,
+      "share": "13.1%"
+    },
+    {
+      "label": "SEXIST",
+      "count": 945,
+      "share": "1.2%"
+    }
+  ],
+  "sourceRows": [
+    {
+      "source": "bully",
+      "count": 2525,
+      "share": "3.2%"
+    },
+    {
+      "source": "jigsaw",
+      "count": 35624,
+      "share": "45.8%"
+    },
+    {
+      "source": "offenseval",
+      "count": 6,
+      "share": "0.0%"
+    },
+    {
+      "source": "told",
+      "count": 39551,
+      "share": "50.8%"
+    },
+    {
+      "source": "troff",
+      "count": 94,
+      "share": "0.1%"
+    }
+  ],
+  "modelRows": [
+    {
+      "run": "berturk_light",
+      "model": "BERTurk",
+      "preprocess": "light",
+      "family": "transformer",
+      "accuracy": 0.9423,
+      "macroF1": 0.8997,
+      "prAuc": 0.9456,
+      "ece": 0.0089,
+      "classwiseEce": 0.0078
+    },
+    {
+      "run": "berturk_raw",
+      "model": "BERTurk",
+      "preprocess": "raw",
+      "family": "transformer",
+      "accuracy": 0.9434,
+      "macroF1": 0.8981,
+      "prAuc": 0.951,
+      "ece": 0.0111,
+      "classwiseEce": 0.0094
+    },
+    {
+      "run": "convberturk_light",
+      "model": "ConvBERTurk",
+      "preprocess": "light",
+      "family": "transformer",
+      "accuracy": 0.9366,
+      "macroF1": 0.8894,
+      "prAuc": 0.9389,
+      "ece": 0.0184,
+      "classwiseEce": 0.0113
+    },
+    {
+      "run": "electra_light",
+      "model": "Turkish ELECTRA",
+      "preprocess": "light",
+      "family": "transformer",
+      "accuracy": 0.9326,
+      "macroF1": 0.88,
+      "prAuc": 0.9406,
+      "ece": 0.0193,
+      "classwiseEce": 0.0116
+    },
+    {
+      "run": "turkishbertweet_light",
+      "model": "TurkishBERTweet",
+      "preprocess": "light",
+      "family": "transformer",
+      "accuracy": 0.9199,
+      "macroF1": 0.8643,
+      "prAuc": 0.926,
+      "ece": 0.0133,
+      "classwiseEce": 0.0126
+    },
+    {
+      "run": "xlm_r_light",
+      "model": "XLM-RoBERTa base",
+      "preprocess": "light",
+      "family": "transformer",
+      "accuracy": 0.9073,
+      "macroF1": 0.8496,
+      "prAuc": 0.9113,
+      "ece": 0.0168,
+      "classwiseEce": 0.0137
+    },
+    {
+      "run": "baseline_sgd_light",
+      "model": "TF-IDF + SGD log-loss",
+      "preprocess": "light",
+      "family": "linear_baseline",
+      "accuracy": 0.882,
+      "macroF1": 0.7969,
+      "prAuc": 0.8592,
+      "ece": 0.0083,
+      "classwiseEce": 0.0106
+    },
+    {
+      "run": "baseline_sgd_raw",
+      "model": "TF-IDF + SGD log-loss",
+      "preprocess": "raw",
+      "family": "linear_baseline",
+      "accuracy": 0.8766,
+      "macroF1": 0.7866,
+      "prAuc": 0.8452,
+      "ece": 0.0082,
+      "classwiseEce": 0.0104
+    },
+    {
+      "run": "baseline_sgd_light_masked",
+      "model": "TF-IDF + SGD log-loss",
+      "preprocess": "light_masked",
+      "family": "linear_baseline",
+      "accuracy": 0.8608,
+      "macroF1": 0.7642,
+      "prAuc": 0.8308,
+      "ece": 0.0087,
+      "classwiseEce": 0.0131
+    }
+  ],
+  "hpo": {
+    "trial": 2,
+    "run_name": "hpo_berturk_trial_02",
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "class_weight": true,
+    "selection_rule": "max val_macro_f1; within 0.003 prefer lower classwise_ece, then runtime",
+    "val_macro_f1": 0.7267337522343423,
+    "val_classwise_ece": 0.02791064968984574,
+    "learning_rate_display": "3e-05"
+  },
+  "hpoRows": [
+    {
+      "trial": 1,
+      "lr": "2e-05",
+      "cw": "yes",
+      "valF1": 0.6587,
+      "ece": 0.0263,
+      "time": "80s"
+    },
+    {
+      "trial": 2,
+      "lr": "3e-05",
+      "cw": "yes",
+      "valF1": 0.7267,
+      "ece": 0.0279,
+      "time": "80s"
+    },
+    {
+      "trial": 3,
+      "lr": "1e-05",
+      "cw": "yes",
+      "valF1": 0.5607,
+      "ece": 0.0387,
+      "time": "79s"
+    },
+    {
+      "trial": 4,
+      "lr": "2e-05",
+      "cw": "yes",
+      "valF1": 0.6545,
+      "ece": 0.0275,
+      "time": "79s"
+    },
+    {
+      "trial": 5,
+      "lr": "2e-05",
+      "cw": "yes",
+      "valF1": 0.667,
+      "ece": 0.0244,
+      "time": "80s"
+    },
+    {
+      "trial": 6,
+      "lr": "2e-05",
+      "cw": "no",
+      "valF1": 0.667,
+      "ece": 0.0152,
+      "time": "77s"
+    }
+  ],
+  "calibrationRows": [
+    {
+      "model": "BERTurk",
+      "topECE": 0.0089,
+      "classECE": 0.0078,
+      "logLoss": 0.1708
+    },
+    {
+      "model": "BERTurk",
+      "topECE": 0.0111,
+      "classECE": 0.0094,
+      "logLoss": 0.1659
+    },
+    {
+      "model": "ConvBERTurk",
+      "topECE": 0.0184,
+      "classECE": 0.0113,
+      "logLoss": 0.1925
+    },
+    {
+      "model": "Turkish ELECTRA",
+      "topECE": 0.0193,
+      "classECE": 0.0116,
+      "logLoss": 0.1999
+    },
+    {
+      "model": "TurkishBERTweet",
+      "topECE": 0.0133,
+      "classECE": 0.0126,
+      "logLoss": 0.2221
+    },
+    {
+      "model": "XLM-RoBERTa base",
+      "topECE": 0.0168,
+      "classECE": 0.0137,
+      "logLoss": 0.2694
+    }
+  ],
+  "confusionPairs": [
+    {
+      "pair": "OTHER -> INSULT",
+      "count": 108,
+      "rate": 0.02
+    },
+    {
+      "pair": "INSULT -> OTHER",
+      "count": 92,
+      "rate": 0.06
+    },
+    {
+      "pair": "INSULT -> PROFANITY",
+      "count": 77,
+      "rate": 0.05
+    },
+    {
+      "pair": "PROFANITY -> INSULT",
+      "count": 59,
+      "rate": 0.02
+    },
+    {
+      "pair": "PROFANITY -> RACIST",
+      "count": 56,
+      "rate": 0.02
+    }
+  ],
+  "classDistributionImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\plots\\class_distribution.png",
+  "sourceDistributionImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\plots\\source_distribution.png",
+  "comparisonImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\plots\\final_model_comparison.png",
+  "bestConfusionImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_light\\confusion_matrix.png",
+  "bestConfusionNormalizedImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_light\\confusion_matrix_normalized.png",
+  "bestPerClassImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_light\\per_class_f1.png",
+  "bestReliabilityImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_light\\reliability_test.png",
+  "bestThresholdImage": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_light\\threshold_sweep_val.png",
+  "perClassRows": [
+    {
+      "label": "OTHER",
+      "precision": 0.974,
+      "recall": 0.969,
+      "f1": 0.971,
+      "support": 5649
+    },
+    {
+      "label": "PROFANITY",
+      "precision": 0.952,
+      "recall": 0.946,
+      "f1": 0.949,
+      "support": 2738
+    },
+    {
+      "label": "INSULT",
+      "precision": 0.876,
+      "recall": 0.86,
+      "f1": 0.868,
+      "support": 1617
+    },
+    {
+      "label": "RACIST",
+      "precision": 0.902,
+      "recall": 0.932,
+      "f1": 0.917,
+      "support": 1525
+    },
+    {
+      "label": "SEXIST",
+      "precision": 0.738,
+      "recall": 0.858,
+      "f1": 0.793,
+      "support": 141
+    }
+  ],
+  "policyRows": [
+    {
+      "policy": "best_f1",
+      "threshold": 0.58,
+      "precision": 0.9734,
+      "recall": 0.9736,
+      "f1": 0.9735,
+      "flagged": "51.6%"
+    },
+    {
+      "policy": "recall_floor_90",
+      "threshold": 0.95,
+      "precision": 0.9934,
+      "recall": 0.9226,
+      "f1": 0.9567,
+      "flagged": "47.9%"
+    }
+  ],
+  "appendixMatrices": [
+    {
+      "run": "berturk_light",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_light\\confusion_matrix.png"
+    },
+    {
+      "run": "berturk_raw",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\berturk_raw\\confusion_matrix.png"
+    },
+    {
+      "run": "convberturk_light",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\convberturk_light\\confusion_matrix.png"
+    },
+    {
+      "run": "electra_light",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\electra_light\\confusion_matrix.png"
+    },
+    {
+      "run": "turkishbertweet_light",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\turkishbertweet_light\\confusion_matrix.png"
+    },
+    {
+      "run": "xlm_r_light",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\transformers\\xlm_r_light\\confusion_matrix.png"
+    },
+    {
+      "run": "baseline_sgd_light",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\variant_light\\confusion_matrix.png"
+    },
+    {
+      "run": "baseline_sgd_raw",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\variant_raw\\confusion_matrix.png"
+    },
+    {
+      "run": "baseline_sgd_light_masked",
+      "path": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project4\\results\\variant_light_masked\\confusion_matrix.png"
+    }
+  ]
+}

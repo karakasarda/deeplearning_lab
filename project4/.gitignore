@@ -1,0 +1,22 @@
+# Local data cache
+data/raw/*.csv
+
+# Large/generated experiment artifacts
+results/*_split.csv
+results/**/*.npy
+results/logs/
+results/checkpoints/
+results/**/checkpoints/
+results/**/checkpoint-*/
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local runtime links
+node_modules/
+
+# Temporary QA previews
+presentation/previews/test_*

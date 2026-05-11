@@ -1,0 +1,129 @@
+{
+  "run_name": "convberturk_light",
+  "family": "transformer",
+  "model_key": "convberturk",
+  "model_name": "dbmdz/convbert-base-turkish-cased",
+  "display_name": "ConvBERTurk",
+  "preprocess": "light",
+  "label_order": [
+    "OTHER",
+    "PROFANITY",
+    "INSULT",
+    "RACIST",
+    "SEXIST"
+  ],
+  "seed": 42,
+  "sample_size": null,
+  "epochs": 1.0,
+  "batch_size": 8,
+  "gradient_accumulation": 2,
+  "effective_batch_size": 16,
+  "learning_rate": 3e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "max_length": 128,
+  "class_weight": true,
+  "class_weights": [
+    0.09982239454984665,
+    0.20598916709423065,
+    0.3488491177558899,
+    0.369935005903244,
+    3.9754042625427246
+  ],
+  "temperature": 1.35,
+  "val_nll_after_temperature": 0.20084063500033877,
+  "val_metrics": {
+    "accuracy": 0.9356469580119966,
+    "balanced_accuracy": 0.8990707954316125,
+    "macro_f1": 0.8833085945688222,
+    "weighted_f1": 0.936015049850281,
+    "macro_precision": 0.870144554142622,
+    "macro_recall": 0.8990707954316125,
+    "log_loss": 0.20084063500033877,
+    "top_label_ece": 0.019133146121242436,
+    "classwise_ece": 0.010015233466385732,
+    "macro_pr_auc": 0.9373418238087972
+  },
+  "test_metrics": {
+    "accuracy": 0.9365895458440445,
+    "balanced_accuracy": 0.9113742272438724,
+    "macro_f1": 0.8893951530933002,
+    "weighted_f1": 0.9371834210839483,
+    "macro_precision": 0.8714477450924754,
+    "macro_recall": 0.9113742272438724,
+    "log_loss": 0.1924925576342863,
+    "top_label_ece": 0.01840978904013564,
+    "classwise_ece": 0.011309732257188225,
+    "macro_pr_auc": 0.938884462634563
+  },
+  "val_uncalibrated_metrics": {
+    "accuracy": 0.9356469580119966,
+    "balanced_accuracy": 0.8990707954316125,
+    "macro_f1": 0.8833085945688222,
+    "weighted_f1": 0.936015049850281,
+    "macro_precision": 0.870144554142622,
+    "macro_recall": 0.8990707954316125,
+    "log_loss": 0.22107237828283582,
+    "top_label_ece": 0.036456280017164736,
+    "classwise_ece": 0.015234536320332597,
+    "macro_pr_auc": 0.9367995600549301
+  },
+  "test_uncalibrated_metrics": {
+    "accuracy": 0.9365895458440445,
+    "balanced_accuracy": 0.9113742272438724,
+    "macro_f1": 0.8893951530933002,
+    "weighted_f1": 0.9371834210839483,
+    "macro_precision": 0.8714477450924754,
+    "macro_recall": 0.9113742272438724,
+    "log_loss": 0.20860182771001634,
+    "top_label_ece": 0.034193926071548614,
+    "classwise_ece": 0.01454213833193863,
+    "macro_pr_auc": 0.939762799348486
+  },
+  "dataset_audit": {
+    "raw_rows": 77800,
+    "raw_columns": [
+      "text",
+      "target",
+      "source",
+      "is_toxic"
+    ],
+    "missing_by_column": {
+      "text": 0,
+      "target": 0,
+      "source": 0,
+      "is_toxic": 0
+    },
+    "dropped_empty_or_unknown_label": 0,
+    "duplicate_text_rows": 0,
+    "conflicting_text_count": 0,
+    "deduplicated_rows_removed": 0,
+    "clean_rows": 77800,
+    "class_distribution": {
+      "OTHER": 37663,
+      "PROFANITY": 18252,
+      "INSULT": 10777,
+      "RACIST": 10163,
+      "SEXIST": 945
+    },
+    "source_distribution": {
+      "bully": 2525,
+      "jigsaw": 35624,
+      "offenseval": 6,
+      "told": 39551,
+      "troff": 94
+    },
+    "binary_distribution": {
+      "0": 37663,
+      "1": 40137
+    },
+    "text_length": {
+      "min": 2,
+      "median": 103.0,
+      "mean": 200.11281491002572,
+      "p95": 643.0,
+      "max": 9314
+    }
+  },
+  "runtime_seconds": 1836.4759483337402
+}
