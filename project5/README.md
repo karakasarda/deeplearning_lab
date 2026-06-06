@@ -8,7 +8,7 @@ Araştırma sorusu:
 
 ## Scope
 
-- Ana teslim: örnek bildirilerle uyumlu IEEE-style PDF report + prototype code/results
+- Ana bildiri çıktısı: örnek bildirilerle uyumlu IEEE-style PDF report + prototype code/results
 - Zorunlu baseline: `tesseract`, `easyocr`
 - Opsiyonel baseline: `paddleocr`
 - Test/smoke motoru: `mock`
@@ -19,7 +19,7 @@ Araştırma sorusu:
 
 OCRTurk verisi repo içinde yeniden dağıtılmaz. `data/raw/` altına indirilir ve `.gitignore` kapsamındadır.
 
-## Deliverables
+## Paper and Outputs
 
 - `output/pdf/Project5_OCRTurk_IEEE_Format_Report.pdf`: örnek bildirilerle uyumlu 4 sayfalık iki sütunlu PDF bildiri
 - `output/Project5_OCRTurk_IEEE_Review_Report.md`: PDF raporu destekleyen Markdown rapor taslağı
@@ -28,7 +28,7 @@ OCRTurk verisi repo içinde yeniden dağıtılmaz. `data/raw/` altına indirilir
 - `results/final/plots/*.png`: raporda kullanılacak grafikler
 - `src/` ve `run_experiments.py`: prototip deney kodu
 
-Sunum dosyası üretilmez ve teslim paketine dahil edilmez.
+Sunum/PPTX üretilmez; çalışma PDF bildiri ve tekrar üretilebilir deney çıktılarıyla raporlanır.
 
 ## Setup
 
@@ -98,8 +98,8 @@ Ana çıktılar:
 - `results/final/run_status.json`: motor uygunluğu, hata ve runtime özeti
 - `results/final/plots/*.png`: metrik ve confusion grafikleri
 - `results/final/ieee_review_report.md`: final deney klasöründeki rapor kopyası
-- `output/Project5_OCRTurk_IEEE_Review_Report.md`: teslim raporu
-- `output/pdf/Project5_OCRTurk_IEEE_Format_Report.pdf`: örnek bildiri formatındaki nihai PDF teslim dosyası
+- `output/Project5_OCRTurk_IEEE_Review_Report.md`: Markdown rapor taslağı
+- `output/pdf/Project5_OCRTurk_IEEE_Format_Report.pdf`: örnek bildiri formatındaki nihai PDF bildiri
 
 OCR metin çıktıları `results/outputs/` altına yazılır ve `.gitignore` kapsamındadır.
 
