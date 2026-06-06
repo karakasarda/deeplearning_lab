@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+rapidfuzz
+jiwer
+pymupdf
+easyocr
+paddleocr
+torch
+transformers
+reportlab

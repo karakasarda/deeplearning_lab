@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "dataset_root": "D:\\Ankara Üniversitesi\\Ankara Üni 2025-2026\\Bahar\\Derin Öğrenme\\deeplearning_lab\\project5\\data\\raw\\ocrturk",
+  "item_count": 180,
+  "engines": [
+    "tesseract",
+    "easyocr"
+  ],
+  "run_config": {
+    "dpi": 300,
+    "gpu": true,
+    "force_render": false,
+    "force_ocr": false,
+    "skip_render": false
+  },
+  "availability": {
+    "tesseract": {
+      "available": true,
+      "reason": ""
+    },
+    "easyocr": {
+      "available": true,
+      "reason": ""
+    }
+  },
+  "failures": [],
+  "summary_path": "results\\final\\experiment_summary.csv",
+  "diacritic_confusions_path": "results\\final\\diacritic_confusions.csv",
+  "plots": [
+    "results\\final\\plots\\cer_by_engine_stage.png",
+    "results\\final\\plots\\wer_by_engine_stage.png",
+    "results\\final\\plots\\diacritic_error_count_by_engine_stage.png",
+    "results\\final\\plots\\postcorrection_cer_delta.png",
+    "results\\final\\plots\\top_diacritic_confusions.png"
+  ],
+  "runtime_seconds": 12835.28,
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

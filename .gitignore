@@ -37,5 +37,13 @@ project4/presentation/previews/test_*
 project5/data/raw/
 project5/data/rendered/
 project5/results/outputs/
+project5/results/**/outputs/
 project5/results/logs/
-project5/presentation/previews/
+project5/results/**/logs/
+project5/results/smoke/
+project5/results/smoke_real/
+project5/data/demo/
+project5/ornek_bilidiriler/
+project5/deep-research-report*.md
+project5/output/*.pptx
+project5/tools/tessdata/*.traineddata
